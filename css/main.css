@@ -71,7 +71,7 @@ table {
 	display: inline-block;
 	color: white;
 	text-decoration: none;
-	margin: 0 10px;
+	padding-right: 10px;
 	opacity: 0.5;
 }
 
@@ -81,6 +81,10 @@ table {
 
 #nav > a > label {
 	display: none;
+}
+
+#nav > a:hover {
+	opacity: 1;
 }
 
 #selected-nav-triangle {
@@ -99,7 +103,6 @@ table {
 
 #hover-nav-triangle {
 	margin-left: 15px;
-	opacity: 0.5;
 	content: '';
 	display: block;
 	position: fixed;
@@ -110,10 +113,6 @@ table {
 	-webkit-transition: border-bottom-width .25s ease-in-out;
 	-ms-transition: border-bottom-width .25s ease-in-out;
 	transition: left .25s ease-in-out;
-}
-
-#nav > a:hover {
-	opacity: 1;
 }
 
 /* NAV LABELS */
@@ -164,4 +163,15 @@ table {
 .content-panel {
 	padding: 10px;
 	margin-top: 10px;
+}
+
+/* FOOTER */
+#footer {
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#footer > span {
+	margin: auto;
 }

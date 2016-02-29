@@ -80,7 +80,10 @@
 
     $nav_links.hover(function(e) {
       var t = $(this);
-      $hoverTriangle.css({left: t.offset().left});
+      $hoverTriangle.css({left: t.offset().left, opacity: 0.7});
+    }, function(e) {
+      var t = $(this);
+      $hoverTriangle.css({left: 0, opacity: 0});
     })
   })
 })();
