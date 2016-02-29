@@ -8,13 +8,34 @@
   <body>
     <div id="root">
       <nav id="nav">
-        <a href="#" class="fa fa-home"><span>Home</span></a>
-        <a href="#resume"><span>Resume</span></a>
-        <a href="#main"><span>Projects</span></a>
-        <a href="#contact"><span>Contact</span></a>
-        <a href="https://github.com/chewiee"><span>Github</span></a>
-        <a href="https://www.linkedin.com/in/rannabansal"><span>LinkedIn</span></a>
+        <a href="#main" class="fa fa-home"><span>Home</span></a>
+        <a href="#resume" class="fa fa-file-text"><span>Resume</span></a>
+        <a href="#projects" class="fa fa-folder"><span>Projects</span></a>
+        <a href="#contact" class="fa fa-envelope"><span>Contact</span></a>
+        <a href="https://github.com/chewiee" class="fa fa-github"><span>Github</span></a>
+        <a href="https://www.linkedin.com/in/rannabansal" class="fa fa-linkedin-square"><span>LinkedIn</span></a>
       </nav>
+      <div id="selected-nav-triangle"></div>
+      <div id="hover-nav-triangle"></div>
       <div id="content">
+        <article id="main" class="content-panel">
+          <div id="content-panel-header">
+            <h1>Ranna Bansal</h1>
+            <p>Engineer, Internet User</p>
+          </div>
+          <div class="profile-pic">
+            <img src="images/profile.jpg" alt="Ranna Bansal" />
+          </div>
+        </article>
+        <article id="projects" class="content-panel">
+          <div id="content-panel-header">
+            <h1>Projects</h1>
+          </div>
+        </article>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
